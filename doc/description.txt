@@ -1,0 +1,53 @@
+@@@@@@@@**table2**@@@@@@@@@@
+on the add offence page, we need to put a check(checkbox) to check if the offence is an alert or not.
+if it is an alert,we must have a drop down that shows where the alert came from eg TMU.so if we have 14 alerts from field services we should be able to pick the sum of 14 taxes.
+
+
+@@@@@@@@**table4**@@@@@@@@@@
+we make it a form. someone inputs the offence number and the rest of the details r retreived.then we have a check box thtat tells us wether it has been sent to ware house or not.
+
+then we shall retrieve the same on the report page
+
+@@@@@@@@**table5**@@@@@@@@@@
+same as table4
+
+@@@@@@@@**Chart 1---bar**@@@@@@@@@@
+
+it looks @ the total of taxes collected from each station
+
+
+@@@@@@@@**Chart 2**@@@@@@@@@@
+ same as Chart 1 but in %
+
+
+
+@@@@@@@@**Chart 3**@@@@@@@@@@
+
+we have to count how many times that section of the law appears 
+
+<div style="height: 100px; width: 200px; overflow: Auto">
+            <asp:DataList ID="dlState" runat="server" CssClass="SlidingBox" OnItemCommand="dlState_ItemCommand">
+                <ItemTemplate>
+                    <ul>
+                        <li>
+                            <asp:LinkButton ID="lnkState" runat="server" Text='<%# Eval("Country_Name")%>' CommandArgument='<%# Eval("CountryID")%>'></asp:LinkButton>
+                        </li>
+                    </ul>
+                </ItemTemplate>
+            </asp:DataList>
+        </div>
+
+<datalist id="languages" style="visibility:hidden;white-space:nowrap;overflow:scroll;">
+  <option value="html">HTML</option>
+  <option value="java">Java</option>
+  <option value="perl">Perl</option>
+  <option value="php">PHP</option>
+  <option value="ruby-on-rails">Ruby on Rails</option>
+</datalist>
+
+$("#IdofTextbox").removeAttr("readonly", true);
+$("#IdofTextbox").prop("readonly", true);
+     $("#state").attr("readonly", true);
+     //$("#rate").attr("readonly", "readonly");   
+  } else {
+     $("#state").attr("readonly", false);

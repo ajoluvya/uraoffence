@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_offeces" value="name:id;datatype:int,name:station;datatype:string,name:rep_date;datatype:date,name:entry_no;datatype:string,name:file_no;datatype:string,name:offender_names;datatype:string,name:nature_offence;datatype:string,name:sect_law;datatype:string,name:desc_goods;datatype:string,name:det_method;datatype:string,name:trans_means;datatype:string,name:goods_val;datatype:int,name:taxes;datatype:int,name:fines;datatype:int,name:total;datatype:int,name:rec_prn;datatype:string,name:remarks;datatype:string,name:modifiedBy;datatype:int" />
+	<infoitem key="UD_rsOffenceNo" value="name:number;datatype:int" />
+</info>
