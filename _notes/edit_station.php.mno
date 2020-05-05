@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsStn" value="name:stationcode;datatype:string,name:name;datatype:string,name:region;datatype:int,name:stationcode;datatype:string" />
+	<infoitem key="UD_region" value="name:rid;datatype:int,name:name;datatype:string" />
+</info>

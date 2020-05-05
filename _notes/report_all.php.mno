@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsRegions" value="name:name;datatype:string,name:rid;datatype:int" />
+	<infoitem key="UD_rsStns" value="name:name;datatype:string,name:stationcode;datatype:string" />
+	<infoitem key="UD_rsDutable" value="name:dtbl;datatype:int,name:val;datatype:real" />
+	<infoitem key="UD_rsNdtbl" value="name:ndtbll;datatype:int,name:ndval;datatype:real" />
+	<infoitem key="UD_rsVal" value="name:outrightsmuggling;datatype:real" />
+	<infoitem key="UD_rsORS" value="name:outrightsmuggling;datatype:real" />
+	<infoitem key="UD_rsUndVal" value="name:UndVal;datatype:real" />
+	<infoitem key="UD_rsMsdec" value="name:Msdec;datatype:real" />
+	<infoitem key="UD_rsConceal" value="name:Conceal;datatype:real" />
+	<infoitem key="UD_rsOthers" value="name:Others;datatype:real" />
+	<infoitem key="UD_rsMsclasfn" value="name:Msclasfn;datatype:real" />
+	<infoitem key="UD_rsTopTenOff" value="name:offender_names;datatype:string,name:nature_offence;datatype:string,name:desc_goods;datatype:string,name:name;datatype:string,name:taxes;datatype:int" />
+	<infoitem key="UD_rsStations" value="name:name;datatype:string,name:stationcode;datatype:string" />
+</info>

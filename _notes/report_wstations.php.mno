@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsStations" value="name:stationcode;datatype:string,name:STN;datatype:string,name:RGN;datatype:string" />
+</info>

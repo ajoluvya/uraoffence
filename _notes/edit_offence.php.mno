@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsOffnce" value="name:off_id;datatype:int,name:stationcode;datatype:string,name:rep_date;datatype:date,name:alert;datatype:int,name:alertOrigin;datatype:int,name:entry_no;datatype:string,name:file_no;datatype:string,name:topup;datatype:int,name:offender_names;datatype:string,name:nature_offence;datatype:string,name:sect_law;datatype:string,name:dutable;datatype:int,name:det_method;datatype:string,name:trans_means;datatype:string,name:fines;datatype:int,name:rec_prn;datatype:string,name:handedCWH;datatype:int,name:remarks;datatype:string,name:modifiedBy;datatype:int,name:stationcode;datatype:string,name:name;datatype:string,name:region;datatype:int,name:modifiedby;datatype:int" />
+	<infoitem key="UD_rsAlertUnits" value="name:ID;datatype:int,name:unit;datatype:string" />
+</info>
